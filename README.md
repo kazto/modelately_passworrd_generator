@@ -1,7 +1,7 @@
-## Modelately Password Generator
+## Moderately Password Generator
 
 ## Project Overview
-This project is a modelately password generator. It generates a random password. You can also specify the length, num and charactor included in the password.
+This project is a moderately password generator. It generates a random password. You can also specify the length, num and charactor included in the password.
 
 ## Installation Instructions
 This project works with Ruby 2.7 or higher. Required libraries are listed in the Gemfile. You can install them with the following command.
@@ -14,7 +14,7 @@ bundle install
 This project can be run from the command line. The following options are available.
 
 ```bash
-modelately_password_generator [-h] [-l LENGTH] [-n NUM] [-a ADDITIONAL_CHARS] 
+moderately_password_generator [-h] [-l LENGTH] [-n NUM] [-a ADDITIONAL_CHARS] 
 ```
 
 - `-h` : display help message.
@@ -26,7 +26,7 @@ modelately_password_generator [-h] [-l LENGTH] [-n NUM] [-a ADDITIONAL_CHARS]
 The following is an example of actual program execution.
 
 ```bash
-$ modelately_password_generator
+$ moderately_password_generator
 leX_cmf-_bBWELYh
 ov2OGligU-249_fX
 N5PVT9-0V_9dSa_T
@@ -38,7 +38,7 @@ S0Uh77F-N_YgSDPq
 e4xXguzM-Q_W8H3S
 h_wglB2-PAni-Jc9
 
-$ modelately_password_generator -l 12 -n 5 -a '%$#@'
+$ moderately_password_generator -l 12 -n 5 -a '%$#@'
 1#@J2nUi$Y%X
 a_2$v%EB#@Hl
 RV0@#cC%U1$m
