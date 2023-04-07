@@ -1,39 +1,56 @@
-# ModelatelyPasswordGenerator
+## Modelately Password Generator
 
-TODO: Delete this and the text below, and describe your gem
+## Project Overview
+This project is a modelately password generator. It generates a random password. You can also specify the length, num and charactor included in the password.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/modelately_password_generator`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Installation Instructions
+This project works with Ruby 2.7 or higher. Required libraries are listed in the Gemfile. You can install them with the following command.
 
-## Installation
-
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+```bash
+bundle install
+````
 
 ## Usage
+This project can be run from the command line. The following options are available.
 
-TODO: Write usage instructions here
+```bash
+modelately_password_generator [-h] [-l LENGTH] [-n NUM] [-a ADDITIONAL_CHARS] 
+```
 
-## Development
+- `-h` : display help message.
+- `-l LENGTH` : Specifies the length of the password to generate. Default is 16.
+- `-n NUM` : number of passwords to generate. Default is 10.
+- `-a ADDITIONAL_CHARS` : Specifies non-alphanumeric characters to be included in the password. Default is `-_`.
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+## Example usage
+The following is an example of actual program execution.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+```bash
+$ modelately_password_generator
+leX_cmf-_bBWELYh
+ov2OGligU-249_fX
+N5PVT9-0V_9dSa_T
+s44Xo1rgh-0ik_yL
+ygSIrYeG_K-IOySo
+J-up_u8O5Nm2yXx0
+sl3-MW_yHhQidiX6
+S0Uh77F-N_YgSDPq
+e4xXguzM-Q_W8H3S
+h_wglB2-PAni-Jc9
 
-## Contributing
+$ modelately_password_generator -l 12 -n 5 -a '%$#@'
+1#@J2nUi$Y%X
+a_2$v%EB#@Hl
+RV0@#cC%U1$m
+lIy$2r#@9%uP
+ZJc#75@8$m%U
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/modelately_password_generator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/modelately_password_generator/blob/main/CODE_OF_CONDUCT.md).
+```
 
-## License
+## Update History
+- 2023/04/07 : First Edition Released
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+## License and author information
+This project is released under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
 
-## Code of Conduct
-
-Everyone interacting in the ModelatelyPasswordGenerator project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/modelately_password_generator/blob/main/CODE_OF_CONDUCT.md).
+The author of this project is kazto.
