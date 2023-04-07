@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "modelately_password_generator"
+require "moderately_password_generator"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 require "securerandom"
-require_relative "modelately_password_generator/version"
+require_relative "moderately_password_generator/version"
 
-module ModelatelyPasswordGenerator
+module ModeratelyPasswordGenerator
   class Error < StandardError; end
   
-  class ModelatelyPasswordGenerator
+  class ModeratelyPasswordGenerator
     DEFAULT_NUM = 10
     DEFAULT_LENGTH = 16
     DEFAULT_ADDITIONAL_CHAR = '-_'

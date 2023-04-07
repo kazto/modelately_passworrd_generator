@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in modelately_password_generator.gemspec
+# Specify your gem's dependencies in moderately_password_generator.gemspec
 gemspec
 
 gem "rake", "~> 13.0"

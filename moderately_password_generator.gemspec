@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/modelately_password_generator/version"
+require_relative "lib/moderately_password_generator/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "modelately_password_generator"
-  spec.version = ModelatelyPasswordGenerator::VERSION
+  spec.name = "moderately_password_generator"
+  spec.version = ModeratelyPasswordGenerator::VERSION
   spec.authors = ["TAKAHASHI Kazto"]
   spec.email = ["kazto@kazto.dev"]
 
   spec.summary = "Generates moderately random passwords."
   spec.description = "Generates moderately random passwords."
-  spec.homepage = "https://github.com/kazto/modelately_password_genarator"
+  spec.homepage = "https://github.com/kazto/moderately_password_genarator"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
