@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Generates moderately random passwords."
   spec.description = "Generates moderately random passwords."
-  spec.homepage = "https://github.com/kazto/moderately_password_genarator"
+  spec.homepage = "https://github.com/kazto/moderately_password_generator"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
